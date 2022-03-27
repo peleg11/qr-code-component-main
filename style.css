@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  background-color: hsl(212, 45%, 89%);
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component {
+  width: 225px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+  border-radius: 5%;
+  padding: 12px;
+}
+img {
+  flex: 0 1 auto;
+  height: 200px;
+  border-radius: 5%;
+}
+.header {
+  font-size: 16px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+}
+.text {
+  flex: 0 1 auto;
+  font-size: 12px;
+  color: hsl(220, 15%, 55%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  flex: 0 1 auto;
+  color: hsl(220, 15%, 55%);
+  width: 111px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
